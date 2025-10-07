@@ -1,5 +1,6 @@
 import { InfoIcon } from "@/utils/icons"
 import Image from "next/image"
+import Link from "next/link"
 
 const GetInvolved = () => {
     const DONATIONS = [
@@ -45,7 +46,9 @@ const GetInvolved = () => {
                             <p className="text-[#181D27] font-semibold text-[48px]">{donate.amount}</p>
                             <p className="leading-[24px]">{donate.content}</p>
                         </div>
-                        <button className="border border-green text-green font-semibold rounded-xl py-4 cursor-pointer hover:bg-green hover:text-white">Donate {donate.amount === "Custom" ? "" : donate.amount}</button>
+                        <Link href="https://www.paypal.com/donate/?hosted_button_id=X5FYSKD8J9GTL" className="w-full">      
+                        <button className="w-full border border-green text-green font-semibold rounded-xl py-4 cursor-pointer hover:bg-green hover:text-white">Donate {donate.amount === "Custom" ? "" : donate.amount}</button>
+                    </Link>
                     </div>
                 ))
             }
@@ -54,12 +57,14 @@ const GetInvolved = () => {
           <InfoIcon />
           <p className="text-sm">We accept STEM material donations like Laptops, Desktops etc</p>
         </div>
-        <div className="flex gap-2">
+        <Link href="https://www.paypal.com/donate/?hosted_button_id=X5FYSKD8J9GTL">
+        <div className="flex gap-2 cursor-pointer">
             <Image src="/assets/visa.png" alt="Visa" width={58} height={40} />
             <Image src="/assets/masterclass.png" alt="Visa" width={58} height={40} />
             <Image src="/assets/amex.png" alt="Visa" width={58} height={40} />
             <Image src="/assets/paypalIcon.png" alt="Visa" width={58} height={40} />
         </div>
+        </Link>
     </section>
     </section>
   )

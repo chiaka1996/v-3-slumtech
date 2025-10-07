@@ -83,9 +83,9 @@ const AboutPage = () => {
              </section>
 
              <section className="mt-[20px] md:pt-[80px] w-full">
-                <h2 className="font-[500] text-[32px] leading-[144%] hidden md:block text-center w-full">Member</h2>
+                <h2 className="font-[500] text-[20px] sm:text-[32px] leading-[144%] text-center w-full">Member</h2>
 
-                <div className="flex justify-between flex-wrap mt-[38px]">
+                <div className="flex justify-between flex-wrap mt-[20px] sm:mt-[38px]">
                 <Member
                     img="/images/project.png"
                     classname="w-[46px] sm:w-[134px] h-[46px] sm:h-[141px]"

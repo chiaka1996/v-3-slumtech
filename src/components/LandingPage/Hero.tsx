@@ -23,7 +23,7 @@ const Hero = () => {
             <Link href="/#mission" className="max-[434px]:w-full max-[434px]:text-center bg-green hover:bg-white hover:text-green rounded-xl font-semibold py-4 px-6 text-white">
               Join the Mission
             </Link>
-            <Link href="/#donate" className="max-[434px]:w-full max-[434px]:text-center border-[1.5px] border-green hover:bg-green hover:text-white text-green rounded-xl font-semibold py-4 px-6">
+            <Link href="https://www.paypal.com/donate/?hosted_button_id=X5FYSKD8J9GTL" className="max-[434px]:w-full max-[434px]:text-center border-[1.5px] border-green hover:bg-green hover:text-white text-green rounded-xl font-semibold py-4 px-6">
               Supports a Child Today
             </Link>
           </div>

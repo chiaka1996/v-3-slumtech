@@ -10,7 +10,7 @@ const Generosity = () => {
             </div>
 
             <div className="flex max-[450px]:flex-col flex-wrap items-center gap-4 max-[450px]:w-full">
-                <Link href="/#donate">
+                <Link href="https://www.paypal.com/donate/?hosted_button_id=X5FYSKD8J9GTL">
                 <button className="max-[450px]:w-full text-green bg-[#FAFCFE] hover:bg-[#92E8C8] cursor-pointer py-4 px-6 rounded-xl font-semibold">Donate Now</button>
                 </Link>
                 <Link href="/#partner">

@@ -45,7 +45,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </nav>
-                <Link href="/#donate" className="bg-green rounded-xl font-semibold py-4 px-6 text-white">
+                <Link href="https://www.paypal.com/donate/?hosted_button_id=X5FYSKD8J9GTL" className="bg-green rounded-xl font-semibold py-4 px-6 text-white">
                     Donate
                 </Link>
             </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
                                     </ul>
                                 </nav>
                                 <Link 
-                                    href="/#donate" 
+                                    href="https://www.paypal.com/donate/?hosted_button_id=X5FYSKD8J9GTL" 
                                     className="block bg-green rounded-xl font-semibold py-4 px-6 text-white text-center"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
