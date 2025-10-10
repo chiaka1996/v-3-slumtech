@@ -35,7 +35,9 @@ const Navbar = () => {
         <section className="py-5 lg:px-20 md:px-7 px-2 xl:px-0 border-b border-[#E9EAEB]">
         <header className="max-w-[1282px] mx-auto ">  
             <div className="hidden md:flex items-center justify-between">
+                <Link href="/">
                 <Image src="/assets/logo.png" alt="logo" width={111} height={44} />
+                </Link>
                 <nav>
                     <ul className="flex gap-4">
                         {NAVS.map((nav) => (
@@ -52,7 +54,9 @@ const Navbar = () => {
 
             <div className="md:hidden">
                 <div className="flex items-center justify-between">
+                    <Link href="/">
                     <Image src="/assets/logo.png" alt="logo" width={90} height={36} />
+                    </Link>
                     <button 
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className="text-black p-2 relative z-50"

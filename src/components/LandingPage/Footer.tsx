@@ -1,4 +1,4 @@
-import { LinkedIn, Twitter, Instagram, Facebook } from "@/utils/icons";
+import { LinkedIn, Twitter, Instagram, Facebook, YouTube } from "@/utils/icons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,7 +7,9 @@ export default function Footer() {
     <footer className="py-[64px] lg:px-20 md:px-7 px-[16px] bg-[#F5F5F5] space-y-18 w-full">
       <div className="max-w-[1282px] mx-auto flex justify-between max-[682px]:flex-col max-[682px]:gap-4">
         <div className="space-y-4 ">
+          <Link href="/">
           <Image src="/assets/logo.png" alt="logo" width={111} height={44} />
+          </Link>
           <p className="text-[#414651] leading-relaxed max-w-xs">
             We bridge the gap between poverty and possibility by bringing technology, education, and sustainable solutions to underserved communities worldwide.
           </p>
@@ -68,6 +70,13 @@ export default function Footer() {
             aria-label="Instagram"
           >
             <Instagram />
+          </Link>
+                    <Link
+                    href="https://www.youtube.com/watch?v=L18GvBEODqs"
+                    target="_blank"
+                    aria-label="Youtube"
+                >
+            <YouTube />
           </Link>
         </div>
       </div>

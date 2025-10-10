@@ -68,6 +68,25 @@ export const Facebook = ({ className }: IconsProps) => {
   );
 };
 
+export const YouTube = ({ className }: IconsProps) => {
+  return (
+    <svg
+      className={className}
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M21.8 7.2C21.7 6.7 21.5 6.3 21.2 5.9C20.8 5.4 20.3 5.1 19.7 4.9C18.3 4.5 12 4.5 12 4.5C12 4.5 5.7 4.5 4.3 4.9C3.7 5.1 3.2 5.4 2.8 5.9C2.5 6.3 2.3 6.7 2.2 7.2C2 8.3 2 12 2 12C2 12 2 15.7 2.2 16.8C2.3 17.3 2.5 17.7 2.8 18.1C3.2 18.6 3.7 18.9 4.3 19.1C5.7 19.5 12 19.5 12 19.5C12 19.5 18.3 19.5 19.7 19.1C20.3 18.9 20.8 18.6 21.2 18.1C21.5 17.7 21.7 17.3 21.8 16.8C22 15.7 22 12 22 12C22 12 22 8.3 21.8 7.2ZM10 15.5V8.5L16 12L10 15.5Z"
+        fill="#414651"
+      />
+    </svg>
+  );
+};
+
+
 
 export const Instagram = ({className}: IconsProps)=> {
     return (
